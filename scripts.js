@@ -8,13 +8,12 @@ const trafficLight = (event) => {
     turnOn[event.target.id]();
 }
 const nextIndex = () => {
-//colorIndex = colorIndex < 2 ? ++colorIndex :0
-    if (colorIndex < 2) {
-        colorIndex++
-    } else {
-        colorIndex = 0;
-    }
-
+colorIndex = colorIndex < 2 ? ++colorIndex :0
+    //if (colorIndex < 2) {
+       // colorIndex++
+    //} else {
+        //colorIndex = 0;
+   // }
 }
 
 const changecolor = () => {
