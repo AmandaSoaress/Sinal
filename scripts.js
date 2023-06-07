@@ -34,3 +34,7 @@ const turnOn = {
 }
 
 buttons.addEventListener('click', trafficLight);
+function recarregarAPagina(){
+    window.location.reload();
+  } 
+  
